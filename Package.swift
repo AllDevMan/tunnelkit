@@ -45,7 +45,7 @@ let package = Package(
 //        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", exact: Version("1.0.17")),
             .package(url: "https://github.com/passepartoutvpn/wireguard-apple", revision: "b79f0f150356d8200a64922ecf041dd020140aa0"),
 //        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", branch: "develop")
-        .package(url: "https://github.com/AllDevMan/OpenSSL", from: "1.0.0"),
+        .package(url: "https://github.com/AllDevMan/OpenSSL", branch: "main"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
